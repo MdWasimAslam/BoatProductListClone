@@ -1,0 +1,21 @@
+.customTopBar .css-hyum1k-MuiToolbar-root{
+    min-height:35px;
+    font-size: 14px;
+}
+.customBoatNav .css-904iy0-MuiStack-root{
+    min-height:85px;
+
+}
+
+.customBoatNav .css-1bph0t-MuiPaper-root-MuiAppBar-root{
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 1px 8px;
+}
+
+.customBoatNav .css-7mt4h1-MuiInputBase-root .MuiInputBase-input{
+    width: 25ch;
+}
+
+.customBoatNav .css-904iy0-MuiStack-root>:not(style)+:not(style){
+    display: flex;
+    align-items: baseline;
+}
