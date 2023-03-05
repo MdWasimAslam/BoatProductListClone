@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import { Box, Container } from "@mui/system";
-import { Button, CssBaseline, IconButton } from "@mui/material";
+import { Button, CssBaseline } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -9,7 +9,6 @@ import Typography from "@mui/material/Typography";
 import Filter from "../Components/Filter";
 import Grid from "@mui/material/Unstable_Grid2";
 import "./Style.css";
-// import products from "../Product.js";
 const products = require("../Product")
 
 

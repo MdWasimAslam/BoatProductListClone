@@ -4,8 +4,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Stack } from "@mui/system";
-import { Link, useNavigate } from "react-router-dom";
-import { Button } from "@mui/material";
+import { Link, } from "react-router-dom";
 import Topbar from "./Topbar";
 import SearchIcon from '@mui/icons-material/Search';
 import { styled } from '@mui/material/styles';
@@ -63,10 +62,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 
 export default function Navbar() {
-  const navigate = useNavigate();
-  const addItem = () => {
-    navigate("/add");
-  };
+
 
 
   return (
@@ -85,7 +81,7 @@ export default function Navbar() {
             spacing={2}
           >
             <div style={{marginLeft:"20px"}} >
-              <Link to="/"><img height={35} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boat_logo_small.webp?v=1672379935" /></Link>
+              <Link to="/"><img height={35} alt={"logo"} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boat_logo_small.webp?v=1672379935" /></Link>
             </div>
             <div>
               <Toolbar
